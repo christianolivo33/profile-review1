@@ -1,0 +1,89 @@
+
+
+
+.container{
+    /* background-color: rgba(128, 128, 128, 0.093); */
+    border-radius: 5px;
+}
+
+.row_33 {
+    padding-top: 150px;
+    padding-bottom:150px;
+    margin: 0 150px 0 150px;
+display: flex;
+align-self: center;
+text-align: center;
+}
+
+/* Homemaid container */
+.container_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hm_logo{
+    height: 100%;
+   width: 100%;
+}
+.h3_index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(175, 26, 26);
+}
+.fw-normal{
+    padding-top: 60px;
+}
+
+/* img-circles */
+.img_circle_1{
+    height: 200px;
+    width: 300px;
+    border: solid rgba(128, 128, 128, 0.801);
+    border-radius: 20px;
+}
+.img_circle_1:hover{
+    border: solid  rgba(1, 1, 147, 0.627);
+    transition: border-color 1s ease;
+    transition: transform 1s ease;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.para-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.d-flex1{
+    background-image: url(/homemaid/assets/maid-wiping-counter.jpg);
+    background-size: cover;
+}
+.d-flex2{
+    background-size: cover;
+background-image: url(/homemaid/assets/smiling_girl_maid.jpg);
+}
+.d-flex3{
+    background-size: contain;
+    background-image: url(/homemaid/assets/another_girl_maid.jpg);
+}
+.review_stars{
+    margin-right: 4px;
+    display: inline;
+    color: gold;
+
+}
+.review_employee {
+    padding-top: 130px;
+    display: flex;
+}
+.review_employee2 {
+    padding-top: 130px;
+}
+
+/* footer */
+.container_footer{
+    display: inline;
+    justify-content: center;
+    
+}

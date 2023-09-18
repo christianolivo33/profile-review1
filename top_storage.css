@@ -1,0 +1,121 @@
+
+/* logo */
+.top_storage_logo {
+    display: flex;
+    height: 60px;
+    width: 140px;
+}
+
+/* navbar */
+.container-fluid {
+background-color: white;
+padding: 10px 0 10px  5px;
+height: 80px;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 0px;
+}
+
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+
+.navbar_list_container {
+    padding-right: 20px;
+    display: flex;
+    float: right;
+}
+
+/* ul links */
+.ul-list-style {
+    color: black;
+    list-style: none;
+    letter-spacing: 1px;
+    display: flex;
+    padding-top: 10px;
+}
+.nav-link {
+    word-spacing: 40px;
+    padding-left: 20px;
+}
+
+/* carosel  */
+.carousel-item {
+    height: 600px;
+}
+
+/* storage customer service image */
+.storage_layout_scenes {
+    /* height: 400px;
+    width: 550px; */
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+/* .img_container-s {
+    height: 300px;
+    width: 400px;
+    display: flex;
+} */
+/* heading circles */
+.col-lg-4 {
+    padding-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carousel-control-prev {
+    background-color: red;
+
+}
+.carousel-control-prev-icon {
+    color: black;
+}
+.carousel-control-next {
+    background-color: red;
+}
+.h1_1 {
+    width: 20px;
+    display: inline;
+    padding-left: 80px;
+    font-size: 48px;
+  
+    color: black;
+    
+}
+/* p */
+.opacity-75 {
+    width: 300px;
+    padding-left: 85px;
+    padding-top: 20px;
+    color: black;
+}
+
+.carousel-indicators {
+    background-color: rgba(255, 255, 255, 0.199);
+}
+.active{
+    color: white;
+}
+.button {
+    background-color: black;
+}
+
+/* 2nd slide */
+.storage_plan {
+    height: 250px;
+    width: 400px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-bottom: 16px;
+}
+
